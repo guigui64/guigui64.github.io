@@ -20,12 +20,15 @@ projects:
   # sort_by options:
   #   - pushed
   #   - stars
-  limit: 9
+  limit: 15
   exclude:
     archived: false
     forks: true
     projects:
     # - repo-name
+      - notes
+      - devops-aws-notes
+      - angular-tour-of-heroes
 
 social_media:
   # behance: your_username
@@ -47,17 +50,18 @@ social_media:
   # youtube: your_username
 
 topics:
+
+  - name: Rust
+    web_url: https://github.com/topics/rust
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/rust/rust.png
+
+  - name: Python
+    web_url: https://github.com/topics/python
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png
+
   - name: TypeScript
     web_url: https://github.com/topics/typescript
     image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png
-
-  - name: Angular
-    web_url: https://github.com/topics/angular
-    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/angular/angular.png
-
-  - name: NGRX
-    web_url: https://github.com/topics/ngrx
-    image_url: https://ngrx.io/assets/images/badge.svg
 
   - name: JavaScript
     web_url: https://github.com/topics/javascript
@@ -67,6 +71,6 @@ topics:
     web_url: https://github.com/topics/react
     image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png
 
-  - name: Nextjs
-    web_url: https://github.com/topics/nextjs
-    image_url: http://pluspng.com/img-png/next-logo-png-build-a-universal-javascript-app-with-next-js-280.png
+  - name: Vim
+    web_url: https://github.com/topics/vim
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/vim/vim.png
