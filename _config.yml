@@ -29,6 +29,11 @@ projects:
       - notes
       - devops-aws-notes
       - angular-tour-of-heroes
+      - vico
+      - configs
+      - movies-explorer
+      - scripts
+      - mongodb-tests
 
 social_media:
   # behance: your_username
