@@ -34,6 +34,12 @@
         {{ user.location }}
       </div>
     {% endif %}
+    <a href="/assets/Resume_Guillaume_Comte.pdf" download>
+      <div class="{{ metadata_styles }} {% if site.style == 'dark' %}text-white{% endif %}">
+        {% octicon file height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:Resume %}
+            Get my resume
+      </div>
+    </a>
     {% if site.social_media %}
       <div class="d-flex flex-wrap flex-items-start {% if site.layout == 'stacked' %}flex-justify-center mt-1 mt-md-3{% endif %}">
         {% for account in site.social_media %}
